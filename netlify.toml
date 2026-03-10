@@ -6,13 +6,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-```
-
-The `[[redirects]]` block is **critical** for React SPAs — without it, any route other than `/` returns a blank 404 page.
-
-### 3. `dist/` is Committed to the Repo
-You have a `dist/` folder pushed to GitHub. If Netlify detects it, it may skip building and serve the `dist/` directly — but that `dist/` folder may have been built with wrong asset paths or be stale/broken.
-
-**Fix:** Add `dist/` to your `.gitignore`:
-```
-dist/

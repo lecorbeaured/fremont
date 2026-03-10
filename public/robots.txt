@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Allow: /#attractions
+Allow: /#nightlife
+Allow: /#experiences
+Allow: /#guides
+Allow: /#faq
+Allow: /#contact
+
+Disallow: /admin/
+Disallow: /temp/
+Disallow: /build/
+Disallow: /node_modules/
+
+Sitemap: https://fremontattractions.guide/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

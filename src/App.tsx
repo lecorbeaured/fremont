@@ -202,6 +202,7 @@ function App() {
             <button onClick={() => scrollToSection('guides')} className="text-sm font-medium text-[#A7B0C8] hover:text-[#F4F6FF] transition-colors">Guides</button>
             <button onClick={() => scrollToSection('faq')} className="text-sm font-medium text-[#A7B0C8] hover:text-[#F4F6FF] transition-colors">FAQ</button>
             <button onClick={() => scrollToSection('contact')} className="text-sm font-medium text-[#A7B0C8] hover:text-[#F4F6FF] transition-colors">Contact</button>
+            <a href="/blog" className="text-sm font-medium text-[#39B8FF] hover:text-[#F4F6FF] transition-colors">Blog</a>
             <button onClick={() => scrollToSection('experiences')} className="btn-primary ml-4">Check Availability</button>
           </div>
           
@@ -221,6 +222,7 @@ function App() {
               <button onClick={() => scrollToSection('guides')} className="text-left py-2 text-[#A7B0C8] hover:text-[#F4F6FF]">Guides</button>
               <button onClick={() => scrollToSection('faq')} className="text-left py-2 text-[#A7B0C8] hover:text-[#F4F6FF]">FAQ</button>
               <button onClick={() => scrollToSection('contact')} className="text-left py-2 text-[#A7B0C8] hover:text-[#F4F6FF]">Contact</button>
+              <a href="/blog" className="text-left py-2 text-[#39B8FF] hover:text-[#F4F6FF]">Blog</a>
               <button onClick={() => scrollToSection('experiences')} className="btn-primary mt-4 text-center">Check Availability</button>
             </div>
           </div>

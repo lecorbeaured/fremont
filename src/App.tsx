@@ -244,7 +244,7 @@ function App() {
         <div className="relative z-10 px-6 lg:px-[6vw] pt-24 pb-16 w-full">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="max-w-2xl">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black leading-[0.9] mb-6">
+              <h1 className="text-5xl sm:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-black leading-[0.9] mb-6">
                 <span className="block">FREMONT</span>
                 <span className="block">STREET</span>
                 <span className="block text-gradient">ATTRACTIONS</span>

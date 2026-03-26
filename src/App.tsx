@@ -103,21 +103,24 @@ function App() {
       description: 'Fly seated or superhero-style above the neon lights.',
       image: '/exp_zipline.jpg',
       cta: 'Book Zipline',
-      price: '$49 - $69'
+      price: '$49 - $69',
+      affiliateLink: 'https://www.viator.com/tours/Las-Vegas/Fremont-Street-History-Walking-Tour/d684-6756FCCWT?pid=P00292126&mcid=42383&medium=link'
     },
     {
       title: 'Guided Walking Tours',
       description: 'History, neon, and local stories from expert guides.',
       image: '/exp_walkingtour.jpg',
       cta: 'See Tours',
-      price: 'From $35'
+      price: 'From $35',
+      affiliateLink: 'https://www.viator.com/tours/Las-Vegas/Fremont-Street-History-Walking-Tour/d684-6756FCCWT?pid=P00292126&mcid=42383&medium=link'
     },
     {
       title: 'Downtown Helicopter Flights',
       description: 'Night flights over the city with breathtaking views.',
       image: '/exp_heli.jpg',
       cta: 'Check Dates',
-      price: 'From $149'
+      price: 'From $149',
+      affiliateLink: 'https://www.viator.com/tours/Las-Vegas/Las-Vegas-Strip-Night-Flight-by-Helicopter-with-Transport/d684-5847NIGHT?pid=P00292126&mcid=42383&medium=link'
     }
   ];
 
@@ -479,7 +482,7 @@ function App() {
                 <h3 className="text-xl font-bold mb-2">{experience.title}</h3>
                 <p className="text-[#A7B0C8] text-sm mb-6">{experience.description}</p>
                 <a 
-                  href="https://www.viator.com/searchResults/all?text=Fremont%20Street%20Las%20Vegas"
+                  href={experience.affiliateLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full flex items-center justify-center gap-2"
@@ -637,6 +640,23 @@ function App() {
           </div>
         </div>
         
+        {/* Hotel Booking Widget */}
+        <section id="hotels" className="py-20 bg-[#0B0E16]">
+          <div className="max-w-5xl mx-auto px-6 lg:px-[6vw] text-center">
+            <h2 className="text-3xl font-bold text-[#F4F6FF] mb-4">
+              Find Your <span className="text-[#39B8FF]">Downtown Hotel</span>
+            </h2>
+            <p className="text-[#A7B0C8] mb-8">Book a hotel near Fremont Street and get the full downtown Vegas experience.</p>
+            <iframe
+              src="https://getyourguide.stay22.com/ebss/71RKgpvzrx"
+              width="100%"
+              height="500"
+              style={{ border: 'none', borderRadius: '12px' }}
+              title="Book Hotels near Fremont Street"
+            />
+          </div>
+        </section>
+
         {/* Footer */}
         <footer className="relative z-10 border-t border-white/10 py-12 px-6 lg:px-[6vw]">
           <div className="max-w-6xl mx-auto">

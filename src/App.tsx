@@ -682,7 +682,7 @@ function App() {
             
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 text-sm text-[#A7B0C8]">
               <p>Your guide to the best experiences in downtown Las Vegas.</p>
-              <p>© 2026 Fremont Street Attractions Guide. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} Fremont Street Attractions Guide. All rights reserved.</p>
             </div>
           </div>
         </footer>

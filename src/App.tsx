@@ -639,25 +639,26 @@ function App() {
             </div>
           </div>
         </div>
-        
-        {/* Hotel Booking Widget */}
-        <section id="hotels" className="py-20 bg-[#0B0E16]">
-          <div className="max-w-5xl mx-auto px-6 lg:px-[6vw] text-center">
-            <h2 className="text-3xl font-bold text-[#F4F6FF] mb-4">
-              Find Your <span className="text-[#39B8FF]">Downtown Hotel</span>
-            </h2>
-            <p className="text-[#A7B0C8] mb-8">Book a hotel near Fremont Street and get the full downtown Vegas experience.</p>
-            <iframe
-              src="https://www.stay22.com/embed/69c5c2042e91e7405c19bd86"
-              width="100%"
-              height="428"
-              style={{ border: 'none', borderRadius: '12px' }}
-              title="Book Hotels near Fremont Street"
-            />
-          </div>
-        </section>
+      </section>
 
-        {/* Footer */}
+      {/* Hotel Booking Widget */}
+      <section id="hotels" className="py-20 bg-[#0B0E16]">
+        <div className="max-w-5xl mx-auto px-6 lg:px-[6vw] text-center">
+          <h2 className="text-3xl font-bold text-[#F4F6FF] mb-4">
+            Find Your <span className="text-[#39B8FF]">Downtown Hotel</span>
+          </h2>
+          <p className="text-[#A7B0C8] mb-8">Book a hotel near Fremont Street and get the full downtown Vegas experience.</p>
+          <iframe
+            src="https://www.stay22.com/embed/69c5c2042e91e7405c19bd86"
+            width="100%"
+            height="428"
+            style={{ border: 'none', borderRadius: '12px' }}
+            title="Book Hotels near Fremont Street"
+          />
+        </div>
+      </section>
+
+      {/* Footer */}
         <footer className="relative z-10 border-t border-white/10 py-12 px-6 lg:px-[6vw]">
           <div className="max-w-6xl mx-auto">
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8">
@@ -685,7 +686,6 @@ function App() {
             </div>
           </div>
         </footer>
-      </section>
     </div>
   );
 }
